@@ -1,0 +1,119 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.kuheliahsan.bloodbank"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:5:5-67
+11-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:7:5-37:19
+14        android:allowBackup="true"
+14-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] C:\Users\kakol\.gradle\caches\transforms-2\files-2.1\478b79604eaaf934858ce3739dce1708\core-1.1.0\AndroidManifest.xml:24:18-86
+16        android:icon="@drawable/logo"
+16-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:9:9-38
+17        android:label="@string/app_name"
+17-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:10:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:11:9-54
+19        android:supportsRtl="true"
+19-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:12:9-35
+20        android:theme="@style/AppTheme" >
+20-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:13:9-40
+21        <activity android:name="com.kuheliahsan.bloodbank.Activities.Ourself" />
+21-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:14:9-90
+21-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:14:19-78
+22        <activity android:name="com.kuheliahsan.bloodbank.Aboutme" />
+22-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:15:9-70
+22-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:15:19-67
+23        <activity
+23-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:16:9-17:74
+24            android:name="com.kuheliahsan.bloodbank.Activities.DonorNewActivity"
+24-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:16:19-87
+25            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+25-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:17:13-72
+26        <activity android:name="com.kuheliahsan.bloodbank.Activities.ProfileActivity" />
+26-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:18:9-89
+26-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:18:19-86
+27        <activity android:name="com.kuheliahsan.bloodbank.Activities.Fact_list" />
+27-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:19:9-83
+27-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:19:19-80
+28        <activity android:name="com.kuheliahsan.bloodbank.Activities.BloodBank_list" />
+28-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:20:9-88
+28-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:20:19-85
+29        <activity
+29-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:21:9-22:74
+30            android:name="com.kuheliahsan.bloodbank.Activities.DonorPage"
+30-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:21:19-80
+31            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+31-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:22:13-72
+32        <activity android:name="com.kuheliahsan.bloodbank.Activities.Home" />
+32-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:23:9-78
+32-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:23:19-75
+33        <activity android:name="com.kuheliahsan.bloodbank.Activities.RegisterActivity" />
+33-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:24:9-90
+33-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:24:19-87
+34        <activity android:name="com.kuheliahsan.bloodbank.Activities.SplashScreen" >
+34-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:25:9-31:20
+34-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:25:19-83
+35            <intent-filter>
+35-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:26:13-30:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:27:17-69
+36-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:27:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:29:17-77
+38-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:29:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity android:name="com.kuheliahsan.bloodbank.Activities.MainActivity" />
+41-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:32:9-86
+41-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:32:19-83
+42
+43        <meta-data
+43-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:34:9-36:57
+44            android:name="preloaded_fonts"
+44-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:35:13-43
+45            android:resource="@array/preloaded_fonts" />
+45-->E:\Android Projects\BloodBank\app\src\main\AndroidManifest.xml:36:13-54
+46
+47        <provider
+47-->[com.google.firebase:firebase-common:11.6.0] C:\Users\kakol\.gradle\caches\transforms-2\files-2.1\6eaeadde82874b38e906921942b589fe\jetified-firebase-common-11.6.0\AndroidManifest.xml:6:9-194
+48            android:name="com.google.firebase.provider.FirebaseInitProvider"
+48-->[com.google.firebase:firebase-common:11.6.0] C:\Users\kakol\.gradle\caches\transforms-2\files-2.1\6eaeadde82874b38e906921942b589fe\jetified-firebase-common-11.6.0\AndroidManifest.xml:6:79-143
+49            android:authorities="com.kuheliahsan.bloodbank.firebaseinitprovider"
+49-->[com.google.firebase:firebase-common:11.6.0] C:\Users\kakol\.gradle\caches\transforms-2\files-2.1\6eaeadde82874b38e906921942b589fe\jetified-firebase-common-11.6.0\AndroidManifest.xml:6:19-78
+50            android:exported="false"
+50-->[com.google.firebase:firebase-common:11.6.0] C:\Users\kakol\.gradle\caches\transforms-2\files-2.1\6eaeadde82874b38e906921942b589fe\jetified-firebase-common-11.6.0\AndroidManifest.xml:6:144-168
+51            android:initOrder="100" />
+51-->[com.google.firebase:firebase-common:11.6.0] C:\Users\kakol\.gradle\caches\transforms-2\files-2.1\6eaeadde82874b38e906921942b589fe\jetified-firebase-common-11.6.0\AndroidManifest.xml:6:169-192
+52
+53        <activity
+53-->[com.google.android.gms:play-services-base:11.6.0] C:\Users\kakol\.gradle\caches\transforms-2\files-2.1\a1676c6c292de411a9c6fe1e097a1c92\jetified-play-services-base-11.6.0\AndroidManifest.xml:19:9-172
+54            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+54-->[com.google.android.gms:play-services-base:11.6.0] C:\Users\kakol\.gradle\caches\transforms-2\files-2.1\a1676c6c292de411a9c6fe1e097a1c92\jetified-play-services-base-11.6.0\AndroidManifest.xml:19:19-85
+55            android:exported="false"
+55-->[com.google.android.gms:play-services-base:11.6.0] C:\Users\kakol\.gradle\caches\transforms-2\files-2.1\a1676c6c292de411a9c6fe1e097a1c92\jetified-play-services-base-11.6.0\AndroidManifest.xml:19:146-170
+56            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+56-->[com.google.android.gms:play-services-base:11.6.0] C:\Users\kakol\.gradle\caches\transforms-2\files-2.1\a1676c6c292de411a9c6fe1e097a1c92\jetified-play-services-base-11.6.0\AndroidManifest.xml:19:86-145
+57
+58        <meta-data
+58-->[com.google.android.gms:play-services-basement:11.6.0] C:\Users\kakol\.gradle\caches\transforms-2\files-2.1\dc7e6ab0aa7cb8a7832edfcfc63e09fd\jetified-play-services-basement-11.6.0\AndroidManifest.xml:20:9-121
+59            android:name="com.google.android.gms.version"
+59-->[com.google.android.gms:play-services-basement:11.6.0] C:\Users\kakol\.gradle\caches\transforms-2\files-2.1\dc7e6ab0aa7cb8a7832edfcfc63e09fd\jetified-play-services-basement-11.6.0\AndroidManifest.xml:20:20-65
+60            android:value="@integer/google_play_services_version" />
+60-->[com.google.android.gms:play-services-basement:11.6.0] C:\Users\kakol\.gradle\caches\transforms-2\files-2.1\dc7e6ab0aa7cb8a7832edfcfc63e09fd\jetified-play-services-basement-11.6.0\AndroidManifest.xml:20:66-119
+61    </application>
+62
+63</manifest>

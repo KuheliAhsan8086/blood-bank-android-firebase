@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">Blood Bank</string>
+    <string name="name">Name :</string>
+    <string name="area">Area :</string>
+    <string name="mobile">Mobile :</string>
+    <string name="blood_group">Blood Group :</string>
+    <string name="email">Email :</string>
+    <string name="check">Check Details</string>
+    <string name="drawerOpen">drawerOpen</string>
+    <string name="drawerClose">drawerClose</string>
+
+    <string-array name="blood_bank">
+<item>
+    Bangladesh Red crecent blood bank
+    Address:7/5,Aurangajeb Rd,Dhaka
+    Open 24 hours
+    Phone:02-9139940
+    </item>
+        <item>
+    Bangladesh blood bank and transfution center
+    Address:Babar Rd,Dhaka
+    Open 24 hours
+    Phone:01718176854
+    </item>
+
+        <item>
+
+            Thelassemia Blood Bank
+            address: Chamelibag,Dhaka
+            Phone: 028624249
+        </item>
+        <item>
+
+            Badhan
+            Address: Rc Mojumder Auditorium,TSC,Dhaka
+            Phone: 01534982674
+        </item>
+        <item>
+
+           Quantum Lab
+            Address :31/V Shilpacharya Zahirul Abedin Sarak, Shantinagar ,Dhaka 1217
+            Open 24 hours
+            Phone : 029351969
+        </item>
+
+        <item>
+
+          Bloodinfobd.com
+            Address : Shajahadpur Bus Stand, Dhaka
+            Open: 9am-11pm
+            Phone : 01709848480
+        </item>
+        <item>
+
+           Islami Bank Hospital Mirpur
+            Address : Purobi Bus Stop, Begum rokeya Avenue, Dhaka 1216
+            Phone : 01992346631
+        </item>
+
+
+        <item>
+
+           Red Crecent Bhaban
+            Address : 61 Motijheel Rd, Dhaka 1000
+        </item>
+
+        <item>
+
+            Badhan
+            Address: Rc Mojumder Auditorium,TSC,Dhaka
+            Phone: 01534982674
+        </item>
+
+    </string-array>
+
+
+    <string-array name="facts_list">
+
+
+
+        <item>
+
+                  কয়দিন পর পর রক্ত দেয়া যায়?
+                  (উত্তর : ১২০ দিন)
+
+        </item>
+
+        <item>
+            রক্ত দেয়ার পর কি ধরনের খাবার খাওয়া উচিত?
+            (উত্তর : তরল খাবার
+        </item>
+
+        <item>
+            ব্লাড ব্যাংক থেকে রক্ত নেয়া যাবে কিনা না?
+
+           (উত্তর : না নেয়া ভাল। কোথাও না পেলে নিতে পারেন তবে পরিক্ষা করে নিতে হবে)
+        </item>
+
+        <item>
+            রক্তদাতার বয়স  সর্বনিম্ন বা সরবচ্চ কত হলে রক্ত দিতে পারবে?
+            (উত্তর : ১৮ থেকে ৫০)
+        </item>
+
+        <item>
+
+            রক্তদাতার ওজন সর্বনিম্ন কত হলে রক্তদানে কোন সমস্যা হবে না?
+
+            (উত্তর : ৫০ কেজি)
+        </item>
+
+        <item>
+
+            রক্তদানের পর রক্তদাতা অসুস্থ হয়ে পরলে কি কি করা উচিত?
+
+            (উত্তর : বিশ্রাম,খাওয়া দাওয়া)
+        </item>
+
+        <item>
+            রক্তদাতা মাদকাসক্ত হলে রক্ত দিতে পারবে?
+            (উত্তর : না)
+        </item>
+    </string-array>
+</resources>

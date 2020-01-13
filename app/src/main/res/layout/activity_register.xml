@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".Activities.RegisterActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <TextView
+            android:text="Your Details will be public to the community,by using this app you also need to pledge to be a donor to help those who are in need"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+
+
+            ></EditText>
+
+        <EditText
+            android:id="@+id/area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Area"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+
+
+            ></EditText>
+
+
+        <EditText
+            android:id="@+id/number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile number(Verifiable)"
+            android:inputType="number"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+
+
+            ></EditText>
+        <EditText
+            android:id="@+id/blood_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Blood group"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+
+
+            ></EditText>
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+
+
+            ></EditText>
+
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+
+
+                ></EditText>
+        <Button
+            android:id="@+id/submit_button"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_margin="20dp"
+            android:background="@drawable/button_bg"
+            android:text="Become a Donor"
+            android:textColor="@android:color/black"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            ></Button>
+        <TextView
+            android:id="@+id/logid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Already a member?Login"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <ProgressBar
+            android:id="@+id/progressber"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+
+
+            ></ProgressBar>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
